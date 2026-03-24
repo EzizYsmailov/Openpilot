@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./venv/Scripts/python.exe:*)",
+      "Bash(ls -la /d/toyota_can_project/ 2>&1 || dir D:\\\\\\\\toyota_can_project 2>&1)",
+      "Bash(cd /d/toyota_can_project && python -c \"import can; import cantools; print\\('python-can:', can.__version__\\); print\\('cantools:', cantools.__version__\\)\" 2>&1)",
+      "Bash(head:*)",
+      "Bash(cd /d/toyota_can_project && python test_all.py 2>&1)",
+      "Bash(cd /d/toyota_can_project && set PYTHONIOENCODING=utf-8 && python test_all.py 2>&1)",
+      "Bash(cd /d/toyota_can_project && python test_safety.py 2>&1)"
+    ]
+  }
+}
