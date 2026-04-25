@@ -1,7 +1,7 @@
 <div align="center">
   <img src="assets/logo (2).jpg" alt="ADU OpenPilot Logo" width="300"/>
 
-  # 🛡️ ADU OpenPilot 
+  # 🛡️ RedPilot 
   **Revolutionary Cyber-Platform for Automotive Reverse Engineering & CAN Exploitation**
 
   <p align="center">
@@ -19,9 +19,9 @@
 
 ## 🌍 Overview
 
-**ADU OpenPilot** is not merely a collection of code comprised of programming languages and algorithms; it is a revolutionary, immensely powerful cyber-platform that completely subjugates a physical object—a multi-ton vehicle—to the sheer will of an engineer using nothing but their fingertips and a keyboard, achieving a level of control that can be considered "total domination."
+**RedPilot** is not merely a collection of code comprised of programming languages and algorithms; it is a revolutionary, immensely powerful cyber-platform that completely subjugates a physical object—a multi-ton vehicle—to the sheer will of an engineer using nothing but their fingertips and a keyboard, achieving a level of control that can be considered "total domination."
 
-The core mission of ADU OpenPilot is to empower offensive and defensive (Red Team, Blue Team) engineers to perform penetration testing, discover vulnerabilities and flaws before malicious actors do, and guarantee the fortification of defense systems and software enhancements.
+The core mission of RedPilot is to empower offensive and defensive (Red Team, Blue Team) engineers to perform penetration testing, discover vulnerabilities and flaws before malicious actors do, and guarantee the fortification of defense systems and software enhancements.
 
 **Continuous and Universal Hardware Agnostic Architecture**
 This project operates not only with high-end, industry-standard specialized cybersecurity tools like the `IXXAT USB-to-CAN` interface, but it also seamlessly integrates with extremely small and affordable `ESP32 & MCP2515` microcontroller bridges designed for long-term scientific surveillance (implants) within vehicles. Consequently, this system remains universally accessible across any scenario—from the most extensive laboratory operations to covert operational research on testing grounds.
@@ -40,7 +40,7 @@ This project operates not only with high-end, industry-standard specialized cybe
 ## 🏗️ Hacker Toolkit Architecture
 
 ```text
-ADU_OpenPilot/
+RedPilot/
  ├── main.py              ➔ Core Engine / C2 Launcher
  ├── gui.py               ➔ C2 (Command & Control) Dashboard
  ├── can_interface.py     ➔ Hardware Bridge Connector (IXXAT / Serial)
@@ -117,5 +117,5 @@ python main.py --demo
 
 ---
 <div align="center">
-  <b>© 2026 ADU OpenPilot Development. All Rights Reserved.</b>
+  <b>© 2026 RedPilot Development. All Rights Reserved.</b>
 </div>
