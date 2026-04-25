@@ -1,7 +1,7 @@
 <div align="center">
   <img src="assets/logo (2).jpg" alt="ADU OpenPilot Logo" width="500"/>
 
-  # 🛡️ ADU OpenPilot 
+  # 🛡️ RedPilot 
   **Revolutionary Cyber-Platform for Automotive Reverse Engineering & CAN Exploitation**
 
   <p align="center">
@@ -19,9 +19,9 @@
 
 ## 🌍 Platforma Barada (Overview)
 
-**ADU OpenPilot** – diňe bir programmirleme dillerinden we algoritmlerden ybarat bolan kod toplumy däl-de, ol fiziki obýekte eýe bolan, birnäçe tonnalyk agyrlykdaky awtoulagy diňe bir inženeriň barmaklarynyň ujy we klawiaturasy arkaly doly öz erkine boýun egdirýän we “doly ele alyp biljek derejede” güýçli, rewolusion bir kiber-platformadyr. 
+**RedPilot** – diňe bir programmirleme dillerinden we algoritmlerden ybarat bolan kod toplumy däl-de, ol fiziki obýekte eýe bolan, birnäçe tonnalyk agyrlykdaky awtoulagy diňe bir inženeriň barmaklarynyň ujy we klawiaturasy arkaly doly öz erkine boýun egdirýän we “doly ele alyp biljek derejede” güýçli, rewolusion bir kiber-platformadyr. 
 
-ADU OpenPilot düýp maksady hüjüm we goranyş (Red Team, Blue Team) inžinerlerine jenaýatçylardan öň pentest edip şol kemçilikleri we gowşaklyklary tapmagy, we berk gorag ulgamy, programmalary kämilleşdirmekligi kepillendirýär.
+RedPilot düýp maksady hüjüm we goranyş (Red Team, Blue Team) inžinerlerine jenaýatçylardan öň pentest edip şol kemçilikleri we gowşaklyklary tapmagy, we berk gorag ulgamy, programmalary kämilleşdirmekligi kepillendirýär.
 
 **Üznüksiz we Ähliumumy Apparat Utgaşyklygy (Hardware Agnostic Architecture)**
 Bu proýekt diňe bir ýokary senagat-standartly, ýöriteleşen kiberhowpsuzlyk gurallary bolan `IXXAT USB-to-CAN` ýaly abzal bilen işlemän, eýsem awtoulaglaryň içinde uzak möhletli ylmy gözegçilik (implant) arkaly ulanmak üçin niýetlenen çakdanaşa kiçi we arzan `ESP32 & MCP2515` mikrokontroller köprüleri bilen hem işleşip bilýär. Şeýlelikde, bu ulgam iň uly laboratoriýa amallaryndan başlap, türgenleşik meýdanlarynda gizlin operasion barlaglara çenli islendik halda elýeterlidir.
@@ -40,7 +40,7 @@ Bu proýekt diňe bir ýokary senagat-standartly, ýöriteleşen kiberhowpsuzlyk
 ## 🏗️ Hakerlik Toplumynyň Gurluşy (Architecture)
 
 ```text
-ADU_OpenPilot/
+RedPilot/
  ├── main.py              ➔ Guralyň esasy ýadrosy / C2 başlangyjy
  ├── gui.py               ➔ C2 (Command & Control) Dolandyryş Paneli
  ├── can_interface.py     ➔ Apparat köprülerini birikdiriji (IXXAT / Serial)
@@ -117,5 +117,5 @@ python main.py --demo
 
 ---
 <div align="center">
-  <b>© 2026 ADU OpenPilot Development. Ähli hukuklar goralan.</b>
+  <b>© 2026 RedPilot Development. Ähli hukuklar goralan.</b>
 </div>
